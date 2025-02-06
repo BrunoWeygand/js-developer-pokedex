@@ -21,49 +21,49 @@ function convertPokemonToLi(pokemon) {
             </div>
             <ol class="detailExpand">
                 <li>
-                    <p>HP</p>
+                    <p class="grey">HP</p>
                     <div>
                         <span>${pokemon.hp}</span>
                         <progress value="${pokemon.hp}" max="100"></progress>
                     </div>
                 </li>
                 <li>
-                    <p>Attack</p>
+                    <p class="grey">Attack</p>
                     <div>
                         <span>${pokemon.attack}</span>
                         <progress value="${pokemon.attack}" max="100"></progress>
                     </div>
                 </li>
                 <li>
-                    <p>Defense</p>
+                    <p class="grey">Defense</p>
                     <div>
                         <span>${pokemon.defense}</span>
                         <progress value="${pokemon.defense}" max="100"></progress>
                     </div>
                 </li>
                 <li>
-                    <p>Sp.Attack</p>
+                    <p class="grey">Sp. Attack</p>
                     <div>
                         <span>${pokemon.spAttack}</span>
                         <progress value="${pokemon.spAttack}" max="100"></progress>
                     </div>
                 </li>
                 <li>
-                    <p>Sp. Defense</p>
+                    <p class="grey">Sp. Defense</p>
                     <div>
                         <span>${pokemon.spDefense}</span>
                         <progress value="${pokemon.spDefense}" max="100"></progress>
                     </div>
                 </li>
                 <li>
-                    <p>Speed</p>
+                    <p class="grey">Speed</p>
                     <div>
                         <span>${pokemon.speed}</span>
                         <progress value="${pokemon.speed}" max="100"></progress>
                     </div>
                 </li>
                 <li>
-                    <p>Total</p>
+                    <p class="grey">Total</p>
                     <div>
                         <span>${pokemon.total}</span>
                         <progress value="${pokemon.total}" max="600"></progress>

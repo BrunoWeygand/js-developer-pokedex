@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1280px) {
   .pokemons {
     grid-template-columns: 1fr 1fr;
   }
@@ -176,5 +176,8 @@
   }
   .detailExpand li p {
     margin: 0px;
+  }
+  .grey {
+    color: #888888;
   }
 }
